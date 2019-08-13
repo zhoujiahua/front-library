@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*Use this file to write IE specific override styles. Import this file using the following HTML or equivalent: <!--[if IE]> <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" /> <![endif]--> */
+.mod-keywords .autolislt .item { *line-height: normal; }
+
+/* 模板样式兼容 */
+.mod-loginbox .dlu { margin-top: -1px; }
+
+.mod-search .secbtn, .mod-search .secx .inputtext { *vertical-align: middle; }
+
+.article-name .icon { _font-size: 0; }
+
+.mod-artlist-summary-s1 { _font-family: "微软雅黑", "Microsoft YaHei", SimHei, "宋体", simsun, sans-serif; }
+
+.mod-artlist-summary-s1 .sum-text-tit { _width: 100%; }
+
+.mod-artlist-summary-s1 .sum-text { _height: 110px; }
+
+body a { outline: none; _blr: expression(this.onFocus=this.blur()); }
+
+/* 多屏滚动时需要调整高度 */
+.mod-imgs .btnbox .btn { _height: 200px; }
+
+.autolist .item { _margin: 8px 0px 8px -2px; _line-height: normal; }
+
+/* ie9+滤镜 */
+:root { -webkit-filter: none; filter: none; }
+
+/* ie7 */
+.media-tit .more { float: right; padding-right: 10px; *margin-top: -34px; }
+
+.mod-artlist .tit .more { *margin-top: -30px; }
+
+.mod-artlist-field2 p { *background-color: #fff; }
+
+.mod-imgs-slider-s2 .slider-tit .more { *margin-top: -30px; }
+
+.mod-artlist-tab-style1 .mod-tab-head { *height: 0; }
