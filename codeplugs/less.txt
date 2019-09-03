@@ -1,0 +1,7 @@
+settings.json
+
+{    
+    "less.compile": {
+        "out": "${workspaceRoot}\\css\\"
+    }
+}
